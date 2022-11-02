@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 html, body {
     margin: 0;
 }
@@ -20,19 +28,142 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: #73ADFF;
     padding: 10px 20px 0px;
 }
-.header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+a:link {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
 }
+a:hover {
+    color: #FFF;
+}
+.header {
+    background-color: #13407F; 
+    color: white;   
+    font-weight: bold;
+    text-align: center;
+}
+
+.header img {
+    width: 200px;
+    float: right;
+}
+.header p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 33px;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+div#logo {
+    position: relative;
+    right: 7%;
+}
+
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
+    display: inline-block;
+    vertical-align: top; 
 }
+.content p {
+    color: rgb(102, 97, 97);
+}
+.content h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+}
+
+div#iframe.content h1 {
+    color: black;
+}
+div#form.content h1 {
+    color: black;
+}
+
+form {
+    font-weight: bold;
+}
+
+div#iframe.content p {
+    font-size: 13px;
+}
+
+input {
+    border: 1px solid gray;
+    border-radius: 2px;
+    width: 400px;
+    height: 25px;
+    margin: 5px 0 5px 0;
+    color: grey;
+}
+
+label {
+    
+}
+
+textarea#mensagem {
+    width: 405px;
+    height: 100px;
+}
+
+button {
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 10px;
+    width: 100px;
+}
+
+
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #1B5AB3;
     min-height: 150px;
+    display: inline-block;
+    font-size: small;
+    text-align: center;
+}
+#end1 {
+    width: 300px;
+}
+
+#end2 {
+    width: 300px;
+}
+
+#end3 {
+    width: 300px;
+}
+
+.footer p {
+    margin: 2px;
+}
+.footer h4 {
+    color: white;
+}
+
+table {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.151);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, tr, td, th {
+    border: 1px solid lightgrey;
+    text-align: center;
+}
+
+tr, td {
+    font-weight: normal;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: rgba(211, 211, 211, 0.452);
+}
+
+table thead th {
+    background-color: rgba(0, 0, 0, 0.575);
+    color: white;
 }
