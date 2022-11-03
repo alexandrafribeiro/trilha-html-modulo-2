@@ -10,7 +10,6 @@
 <body>
     <div class="wrapper">
         <div class="menu">
-            <!-- Aqui vai o seu menu -->
             <div class="foto" id="logo">
                 <img src="images/logo-clinica.png" alt="logo-clinica">
             </div>
@@ -28,14 +27,13 @@
 
         <div class="main">
             <div class="header">
-                <!-- Aqui vai o seu header -->
-                <div class="header" id="foto1">
-                    <img src="images/foto-4.jpg" alt="">
+                <div class="header" id="foto4">
+                    <img src="images/foto-4.jpg" alt="Foto de um estetoscópio e uma caneta em cima de uma ficha médica">
                 </div>
                 <div class="header" id="parag">
-                    <p>
+                    <h1>
                         Cardioclin Especialidades Médicas e Exames
-                    </p>
+                    </h1>
                 </div>
             </div>
     
@@ -66,10 +64,10 @@
                         <label for="">E-mail:</label><br>
                         <input type="email" name="email" placeholder="Digite seu e-mail" id="email"><br>
                         <label for="">Assunto:</label><br>
-                        <input type="text" name="assunto" placeholder="Digite o assunto" id="telefone"><br>
+                        <input type="text" name="assunto" placeholder="Digite o assunto" id="telefone" maxlength="100"><br>
                         <label for="">Mensagem:</label><br>
-                        <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem" cols="30" rows="10"></textarea><br>
-                        <button type="submit">Enviar</button>
+                        <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem" cols="30" rows="10" maxlength="200"></textarea><br>
+                        <button type="submit" onclick="alert('Seus dadaos foram enviados!')">Enviar</button>
                         <button type="reset">Limpar</button>
                     </form>
                 </div>
@@ -96,5 +94,8 @@
             </div>
         </div>
     </div>
+    <script>
+
+    </script>
 </body>
 </html>

@@ -43,22 +43,18 @@ a:hover {
     background-color: #13407F; 
     color: white;   
     font-weight: bold;
-    text-align: center;
 }
 
 .header img {
     width: 200px;
+    height: 135px;
     float: right;
 }
-.header p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 33px;
-    padding-left: 10px;
-    padding-top: 12px;
-}
-div#logo {
-    position: relative;
-    right: 7%;
+.header h1 {
+    margin-left: 10px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 32px;
 }
 
 .content {
